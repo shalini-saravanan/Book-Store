@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.joda.time.DateTime;
 
+import java.util.Date;
+
 @Entity
 @Getter
 @Setter
@@ -21,7 +23,7 @@ public class Author {
     private int id;
     private String name;
     private String gender;
-    private DateTime createdAt;
-    private DateTime updatedAt;
+    private Date createdAt;
+    private Date updatedAt;
 
 }
